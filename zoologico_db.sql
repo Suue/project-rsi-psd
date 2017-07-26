@@ -35,7 +35,7 @@ animal_species_id int not null,
 primary key (id),
 foreign key (animal_species_id) references animal_species (id));
 
-create table collector(
+create table collector_information(
 id int not null auto_increment,
 cage_id int not null,
 name varchar(40) not null,
